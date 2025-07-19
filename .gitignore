@@ -1,0 +1,66 @@
+# --- Python/Django ---
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# Django static/media
+backend/media/
+backend/staticfiles/
+
+# Django local settings
+backend/.env
+
+# --- Node/React ---
+frontend-web/node_modules/
+frontend-web/build/
+frontend-web/.env
+
+# --- macOS ---
+.DS_Store
+
+# --- VSCode ---
+.vscode/
+.history/
+
+# --- Autres fichiers temporaires ---
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Coverage ---
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+.pytest_cache/
+
+# --- Test output ---
+.junit/
+
+# --- Misc ---
+*.bak
+*.tmp 
